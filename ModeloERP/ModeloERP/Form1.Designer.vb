@@ -48,6 +48,7 @@ Partial Class Form1
         Me.FacturasToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultarFacturasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CrearFacturaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -71,20 +72,20 @@ Partial Class Form1
         'RegistrarClienteToolStripMenuItem
         '
         Me.RegistrarClienteToolStripMenuItem.Name = "RegistrarClienteToolStripMenuItem"
-        Me.RegistrarClienteToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.RegistrarClienteToolStripMenuItem.Size = New System.Drawing.Size(199, 26)
         Me.RegistrarClienteToolStripMenuItem.Text = "Registrar cliente"
         '
         'RentabilidadToolStripMenuItem
         '
         Me.RentabilidadToolStripMenuItem.Name = "RentabilidadToolStripMenuItem"
-        Me.RentabilidadToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.RentabilidadToolStripMenuItem.Size = New System.Drawing.Size(199, 26)
         Me.RentabilidadToolStripMenuItem.Text = "Rentabilidad"
         '
         'PresupuestosToolStripMenuItem
         '
         Me.PresupuestosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CrearPresupuestoToolStripMenuItem1, Me.ConsuToolStripMenuItem})
         Me.PresupuestosToolStripMenuItem.Name = "PresupuestosToolStripMenuItem"
-        Me.PresupuestosToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.PresupuestosToolStripMenuItem.Size = New System.Drawing.Size(199, 26)
         Me.PresupuestosToolStripMenuItem.Text = "Presupuestos"
         '
         'CrearPresupuestoToolStripMenuItem1
@@ -103,7 +104,7 @@ Partial Class Form1
         '
         Me.FacturasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarFacturasToolStripMenuItem1, Me.CrearFacturaToolStripMenuItem1})
         Me.FacturasToolStripMenuItem.Name = "FacturasToolStripMenuItem"
-        Me.FacturasToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.FacturasToolStripMenuItem.Size = New System.Drawing.Size(199, 26)
         Me.FacturasToolStripMenuItem.Text = "Facturas"
         '
         'ConsultarFacturasToolStripMenuItem1
@@ -201,11 +202,19 @@ Partial Class Form1
         Me.CrearFacturaToolStripMenuItem.Size = New System.Drawing.Size(210, 26)
         Me.CrearFacturaToolStripMenuItem.Text = "Crear factura"
         '
+        'Panel1
+        '
+        Me.Panel1.Location = New System.Drawing.Point(10, 27)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(778, 420)
+        Me.Panel1.TabIndex = 1
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
@@ -247,17 +256,21 @@ Partial Class Form1
     Friend WithEvents CrearFacturaToolStripMenuItem1 As ToolStripMenuItem
 
     Private Sub RegistrarClienteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RegistrarClienteToolStripMenuItem.Click
+        Dim formularioRegitro As New Form2
 
-        Dim formularioNuevo As New Form2()
-        formularioNuevo.Show()
+        ' Carga del formulario nuevo dentro del formulario principal
+        formularioRegitro.TopLevel = False
+        formularioRegitro.Dock = DockStyle.Fill
+        formularioRegitro.FormBorderStyle = FormBorderStyle.None
 
-
-
+        'Carga del formulario en el panel
+        Panel1.Controls.Add(formularioRegitro)
+        'Muestra el formulario
+        formularioRegitro.Show()
 
 
     End Sub
 
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Friend WithEvents Panel1 As Panel
 
-    End Sub
 End Class
