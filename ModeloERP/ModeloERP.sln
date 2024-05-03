@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34407.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ModeloERP", "ModeloERP\ModeloERP.vbproj", "{4C2043A0-9AB1-4812-B9DA-C1A04AD18605}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C2043A0-9AB1-4812-B9DA-C1A04AD18605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2043A0-9AB1-4812-B9DA-C1A04AD18605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2043A0-9AB1-4812-B9DA-C1A04AD18605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2043A0-9AB1-4812-B9DA-C1A04AD18605}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {596B4B97-C77E-44B2-B5AB-92302A63E8E2}
+	EndGlobalSection
+EndGlobal

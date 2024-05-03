@@ -1,0 +1,13 @@
+D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\bin\Debug\ModeloERP.exe.config
+D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\bin\Debug\ModeloERP.exe
+D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\bin\Debug\ModeloERP.pdb
+D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\bin\Debug\ModeloERP.xml
+D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.vbproj.AssemblyReference.cache
+D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.Form1.resources
+D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.Resources.resources
+D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.vbproj.GenerateResource.cache
+D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.vbproj.CoreCompileInputs.cache
+D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.exe
+D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.xml
+D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.pdb
+D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.Form2.resources
