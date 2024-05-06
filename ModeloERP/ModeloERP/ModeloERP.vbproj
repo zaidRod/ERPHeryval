@@ -78,16 +78,28 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <Compile Include="FormConsultaPresupuesto.Designer.vb">
+      <DependentUpon>FormConsultaPresupuesto.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form2.vb">
+    <Compile Include="FormConsultaPresupuesto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistro.Designer.vb">
+      <DependentUpon>FormRegistro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegistro.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\ConsultaPresupuesto.Designer.vb">
+      <DependentUpon>ConsultaPresupuesto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\ConsultaPresupuesto.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -104,8 +116,14 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <EmbeddedResource Include="FormConsultaPresupuesto.resx">
+      <DependentUpon>FormConsultaPresupuesto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistro.resx">
+      <DependentUpon>FormRegistro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\ConsultaPresupuesto.resx">
+      <DependentUpon>ConsultaPresupuesto.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

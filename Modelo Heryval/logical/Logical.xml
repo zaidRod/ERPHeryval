@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="492D56F9-F377-DB89-6720-91595C0417A8" mainViewID="C8E9457A-855C-B62E-BD74-D8E52C4BB29B">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 08:37:45 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0119E4C-0324-2651-89FB-DFBFEB82F50D" name="Proveedores">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>EE8CD623-D526-4F7A-D0E9-F6E4175642E2</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipoProducto" id="0FCD46A9-F32A-A93F-2F75-6E641585AE82">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>152BDCE2-DEDF-0667-9AD7-3AE9FECE3EA4</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_proveedor" id="EF6BEE05-E1E8-521A-B412-4F92A74E3064">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>3829EC56-2FEE-E304-48C7-9B0A933D72F1</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="33841578-381B-4149-7650-D4CC3DB255EE">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>19A13E79-1133-1522-014F-67F2D387E852</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Correo" id="0B18B062-BEE0-3DB2-0005-CD1DBD2281C6">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>91A07EA2-A234-D95C-5A13-826F25B8234A</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIF" id="F66C5DCD-E2CB-4F06-A803-A70597998C91">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>C790F359-4821-76CC-5056-0D8BE884575D</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8B730AF-303D-AD46-EDFD-B51B7B3939E1" name="Proveedores_PK">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>438882FE-935C-521B-C179-3716C6048F7A</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF6BEE05-E1E8-521A-B412-4F92A74E3064"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

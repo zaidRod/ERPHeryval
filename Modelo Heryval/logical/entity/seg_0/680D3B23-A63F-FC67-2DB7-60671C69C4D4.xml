@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="680D3B23-A63F-FC67-2DB7-60671C69C4D4" name="Piezas">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 10:58:35 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_pieza" id="F5B3C0CC-24AD-223D-D252-1536CB8DB231">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 10:58:41 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_proveedor" id="C0265900-7A17-E737-92CE-5D5E9A51F5C8">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 10:58:45 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_presupuesto" id="CC0D5FFF-0C16-0B1B-EBBE-E0FE4B689760">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 10:58:53 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="1086D8D8-40C9-5F9E-4D3F-21F2CDCF516A">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 10:59:08 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Precio" id="9DDA6F7A-6DBF-CEF5-9901-00349306EDAC">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 10:59:26 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_maquina" id="C9421EB2-9A27-EACC-015E-0D519195B112">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:33:03 UTC</createdTime>
+<generatorID>FCBA3091-9651-3440-6222-643DD14B3020</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<referedAttribute>73D693F1-2BF9-E3E5-9008-012BC707D766</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_presupuesto1" id="F39E6B5E-B235-82AA-8F8B-4EC4D09E3DA0">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:46:44 UTC</createdTime>
+<generatorID>A4E0835E-02C5-6FB8-38DB-94E3FF65C016</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<referedAttribute>51C0FF3B-C756-8E31-C6F4-60464636D385</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="66B39D84-FF42-9CB7-7BFA-D9B0B56B36FC" name="Piezas PK">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:44:31 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F5B3C0CC-24AD-223D-D252-1536CB8DB231</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

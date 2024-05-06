@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F236754F-6385-90C9-CFAD-C75C74264D03" name="Proyecto">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 10:46:33 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre" id="B7CC0059-E2F8-4EE1-34F2-379F85CDFF73">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 10:46:38 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="76520C23-1F54-1C5F-3426-88A7DCDA4930">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 10:46:57 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Presupuesto" id="F9357B83-8822-30D5-40F5-D7310C7B7383">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 10:47:12 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_proyecto" id="DE10F418-9DFD-6084-AA87-01C76F5354DC">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 10:47:44 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_cliente1" id="69E7E437-6E58-B4D3-B4B4-9C11AA06D95D">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 11:08:13 UTC</createdTime>
+<generatorID>651163A9-4158-F180-43BF-304E7D41EC1D</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<referedAttribute>5D8F5AAA-8197-49F9-6DC9-339512B1A094</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Presupuesto" id="51BD371D-8AA4-26C3-41F8-C52F0F8F1AF0">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 11:18:33 UTC</createdTime>
+<generatorID>9A304036-587C-2D59-3544-61BA3C1192CC</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<referedAttribute>D5A26407-8872-69F8-C3DE-845C4438C36F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A95F0731-7C5D-A0DD-FABA-C9B62391C4C6" name="Proyecto PK">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 10:47:53 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DE10F418-9DFD-6084-AA87-01C76F5354DC</attributeRef>
+<attributeRef>69E7E437-6E58-B4D3-B4B4-9C11AA06D95D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

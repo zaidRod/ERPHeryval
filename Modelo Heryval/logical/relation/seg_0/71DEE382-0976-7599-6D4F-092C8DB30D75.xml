@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="71DEE382-0976-7599-6D4F-092C8DB30D75">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:23:11 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>EE8CD623-D526-4F7A-D0E9-F6E4175642E2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>680D3B23-A63F-FC67-2DB7-60671C69C4D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

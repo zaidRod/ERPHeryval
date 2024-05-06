@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBB571C7-FDA4-4FD8-574E-54FB2FEC7A10" name="Presupuesto">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>EB97BD0C-C17E-5841-7BAD-706081B93D4F</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Precio" id="F7490CA1-1E5D-FB33-3AE5-9C6847AD0F13">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>74AFCAC2-654E-64EE-79CC-F0A1D00E5FC3</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Presupuesto" id="261B4312-9058-ED31-3F6C-38F1EA1193CB">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>D5A26407-8872-69F8-C3DE-845C4438C36F</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proyecto_ID_proyecto" id="B6AA3DE2-D4AA-80AB-F8DE-24B139AAFB5B">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>461E337A-AFA5-AD1D-7389-7D45BDF44D26</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9893AFA-1EB4-17B1-A973-BEE0E0273726" referredColumn="40CC9429-EBF1-9821-A08A-71C175876051"/>
+</associations>
+</Column>
+<Column name="Proyecto_Cliente_ID_cliente" id="487EF08D-4C49-72F9-E67B-310A98C881EA">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>0EA14E84-63AA-0812-1660-796859DB02C8</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9893AFA-1EB4-17B1-A973-BEE0E0273726" referredColumn="AFA41CE0-8F7F-0E12-7B6A-71AB923EF0DF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55749237-8975-4986-2767-29FBEB689B9E" name="Presupuesto_PK">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>B2A1CBE5-CE77-6958-DA18-C1B052FB5893</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="261B4312-9058-ED31-3F6C-38F1EA1193CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E7A3103-6AB0-3A67-A23C-C7196F18C59A" name="Presupuesto__IDX">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9A304036-587C-2D59-3544-61BA3C1192CC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B6AA3DE2-D4AA-80AB-F8DE-24B139AAFB5B"/>
+<colUsage columnID="487EF08D-4C49-72F9-E67B-310A98C881EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0960083C-54F6-853C-C52D-FE69AAC8AFCE" name="Presupuesto_Proyecto_FK">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>9A304036-587C-2D59-3544-61BA3C1192CC</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6AA3DE2-D4AA-80AB-F8DE-24B139AAFB5B"/>
+<colUsage columnID="487EF08D-4C49-72F9-E67B-310A98C881EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

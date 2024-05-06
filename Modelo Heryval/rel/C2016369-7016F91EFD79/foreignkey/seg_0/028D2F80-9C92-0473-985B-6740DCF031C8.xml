@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="028D2F80-9C92-0473-985B-6740DCF031C8" containerWithKeyObject="0126A467-B56A-FF95-1D8A-C2F807B6DCA9" localFKIndex="ECD900B5-2A5F-D40C-3712-FDE61108E4F7" name="Piezas_Maquina_FK">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>FCBA3091-9651-3440-6222-643DD14B3020</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<referredTableLongName>Maquina</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B0583358-62E0-01F6-A44D-BBDDEBEA2776</referredTableID>
+<keyObject>D05588EF-6A24-9ACF-D1A3-FFFFF44F7F94</keyObject>
+<referredKeyID>D05588EF-6A24-9ACF-D1A3-FFFFF44F7F94</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_maquina</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

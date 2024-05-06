@@ -49,7 +49,10 @@ Partial Class Form1
         Me.ConsultarFacturasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CrearFacturaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -204,10 +207,20 @@ Partial Class Form1
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Location = New System.Drawing.Point(10, 27)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(778, 420)
         Me.Panel1.TabIndex = 1
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Location = New System.Drawing.Point(265, 114)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(292, 188)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
         '
         'Form1
         '
@@ -218,9 +231,11 @@ Partial Class Form1
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
-        Me.Text = "Prototio Heryval"
+        Me.Text = " "
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -249,6 +264,20 @@ Partial Class Form1
     Friend WithEvents CrearFacturaToolStripMenuItem As ToolStripMenuItem
 
     Private Sub CrearPresupuestoToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles CrearPresupuestoToolStripMenuItem1.Click
+        Dim formularioPresupuesto As New FormConsultaPresupuesto()
+
+        'Oculta la imagen
+        PictureBox1.Visible = False
+
+        ' Carga del formulario nuevo dentro del formulario principal
+        formularioPresupuesto.TopLevel = False
+        formularioPresupuesto.Dock = DockStyle.Fill
+        formularioPresupuesto.FormBorderStyle = FormBorderStyle.None
+
+        'Carga del formulario en el panel
+        Panel1.Controls.Add(formularioPresupuesto)
+        'Muestra el formulario
+        formularioPresupuesto.Show()
 
     End Sub
 
@@ -256,7 +285,9 @@ Partial Class Form1
     Friend WithEvents CrearFacturaToolStripMenuItem1 As ToolStripMenuItem
 
     Private Sub RegistrarClienteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RegistrarClienteToolStripMenuItem.Click
-        Dim formularioRegitro As New Form2
+        Dim formularioRegitro As New FormRegistro()
+        'Oculta la imagen
+        PictureBox1.Visible = False
 
         ' Carga del formulario nuevo dentro del formulario principal
         formularioRegitro.TopLevel = False
@@ -272,5 +303,9 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents Panel1 As Panel
+    Friend WithEvents PictureBox1 As PictureBox
 
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        PictureBox1.Image = Image.FromFile(Application.StartupPath & "\IconoEryval.png")
+    End Sub
 End Class

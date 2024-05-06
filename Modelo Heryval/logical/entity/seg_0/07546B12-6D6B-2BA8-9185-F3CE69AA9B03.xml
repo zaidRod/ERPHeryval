@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="07546B12-6D6B-2BA8-9185-F3CE69AA9B03" name="PresupuestoProveedor">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 10:57:33 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_presupuesto" id="51C0FF3B-C756-8E31-C6F4-60464636D385">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 10:57:48 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_proveedor" id="19890202-78C0-53EE-1AE7-92EEB1AFB3A7">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 10:57:53 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Coste" id="4752314B-EC3F-D8C2-D386-E47361C60196">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 10:57:57 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_pieza" id="6FF3B13E-CA24-820D-5413-BDEF4AA02B79">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 10:58:01 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_proveedor1" id="3C7195E7-088F-A953-B18C-8BA1D8AFC09A">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:34:43 UTC</createdTime>
+<generatorID>49C9162C-E500-F499-26BE-AFCB3E83E1DD</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<referedAttribute>3829EC56-2FEE-E304-48C7-9B0A933D72F1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_pedido" id="503619DC-CE6D-6B3C-987E-E2CC5550F7E6">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:23 UTC</createdTime>
+<generatorID>2B6FF652-44ED-A662-73CA-5A9C5311B7CE</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<referedAttribute>47A4CAC3-11E0-FC27-E252-AD41AE4FFB59</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC4444F2-C4D9-59A3-F6A9-11714C1D9E01" name="PresupuestoProveedor PK">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:46:43 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51C0FF3B-C756-8E31-C6F4-60464636D385</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

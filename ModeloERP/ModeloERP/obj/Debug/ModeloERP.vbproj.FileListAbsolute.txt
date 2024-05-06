@@ -10,4 +10,6 @@ D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.
 D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.exe
 D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.xml
 D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.pdb
-D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.Form2.resources
+D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.FormRegistro.resources
+D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.ConsultaPresupuesto.resources
+D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.FormConsultaPresupuesto.resources

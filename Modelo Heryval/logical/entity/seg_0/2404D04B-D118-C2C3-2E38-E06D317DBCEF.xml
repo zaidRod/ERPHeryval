@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2404D04B-D118-C2C3-2E38-E06D317DBCEF" name="Pedido">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 11:00:28 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_proveedor" id="3FA0D2B9-D502-B4E7-63C2-7601173A9F6B">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 11:00:35 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_pedido" id="47A4CAC3-11E0-FC27-E252-AD41AE4FFB59">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 11:00:43 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Coste" id="9E96AD30-9C1E-E358-216D-3449C2E4ECCD">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 11:00:48 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Presupuesto" id="025B9C34-046B-E467-05A2-30BAE9FCDB98">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:42:57 UTC</createdTime>
+<generatorID>DA3CEC50-513F-45FB-DC7F-60C2F820A157</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<referedAttribute>D5A26407-8872-69F8-C3DE-845C4438C36F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_presupuesto1" id="FE98600E-8B3F-25E5-B35B-C194344ACCA5">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:46:44 UTC</createdTime>
+<generatorID>2B6FF652-44ED-A662-73CA-5A9C5311B7CE</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<referedAttribute>51C0FF3B-C756-8E31-C6F4-60464636D385</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BA5ED56E-1B8C-2273-0513-241A4D4D0BBD" name="Pedido PK">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:20 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<engineerTo>
+<item key="C2016369-5959-D587-1877-7016F91EFD79" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>47A4CAC3-11E0-FC27-E252-AD41AE4FFB59</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

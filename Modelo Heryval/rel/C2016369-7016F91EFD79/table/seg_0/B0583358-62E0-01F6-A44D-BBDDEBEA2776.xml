@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0583358-62E0-01F6-A44D-BBDDEBEA2776" name="Maquina">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>C3082F2A-68B8-B1F8-B66E-B2BEC51CA776</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_maquina" id="18CAE103-6D0F-FB11-1A7D-8398FBCA77F4">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>73D693F1-2BF9-E3E5-9008-012BC707D766</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Presupuesto_Id_Presupuesto" id="C94FF1FA-A101-2D38-6A0F-1A79A18506B9">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>9A8E9B43-8598-AFC0-2F0C-A17E072879AA</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6582CCD2-0191-D41E-3744-C2C6A615E343" referredColumn="261B4312-9058-ED31-3F6C-38F1EA1193CB"/>
+</associations>
+</Column>
+<Column name="tipo" id="7970A034-7D47-4344-2792-5736A4FC249F">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>0D61B445-92D6-9A30-E998-90472B22DA5C</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marcas" id="65CFE389-7DBA-8266-EACD-A0A6D8E766B4">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>3600240E-902B-8BEC-BB74-241CE5A0CF81</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D05588EF-6A24-9ACF-D1A3-FFFFF44F7F94" name="Maquina_PK">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>4F8ECD3C-948F-D3CC-9C77-78C87A1F99C8</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18CAE103-6D0F-FB11-1A7D-8398FBCA77F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48D943B3-5E95-3A27-53A3-DDEEF9D5AE42" name="Maquina_Presupuesto_FK">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>43783B16-E060-D415-9C80-531F226A248A</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C94FF1FA-A101-2D38-6A0F-1A79A18506B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

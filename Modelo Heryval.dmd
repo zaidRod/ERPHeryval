@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo Heryval" id="8BC2C154-DE99-B817-E6C0-CB7A82E4C43E" version="3.5">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-24 08:37:45 UTC</createdTime>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8BC2C154-DE99-B817-E6C0-CB7A82E4C43E</designId>
+</OSDM_Design>

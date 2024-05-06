@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2FF28E70-4E03-EC4C-1AB1-D1CE381FDBB0" containerWithKeyObject="5D336832-5BF9-EB60-BC63-CF4C72EF9E5A" localFKIndex="A9EAC478-ED3C-DC3C-1A47-E42E9D9E4286" name="Proyecto_Presupuesto_FK">
+<createdBy>Zaid y Yaz</createdBy>
+<createdTime>2024-04-26 11:47:39 UTC</createdTime>
+<generatorID>9A304036-587C-2D59-3544-61BA3C1192CC</generatorID>
+<ownerDesignName>Modelo Heryval</ownerDesignName>
+<referredTableLongName>Presupuesto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CBB571C7-FDA4-4FD8-574E-54FB2FEC7A10</referredTableID>
+<keyObject>55749237-8975-4986-2767-29FBEB689B9E</keyObject>
+<referredKeyID>55749237-8975-4986-2767-29FBEB689B9E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Presupuesto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
