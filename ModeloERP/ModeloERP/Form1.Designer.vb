@@ -28,6 +28,8 @@ Partial Class Form1
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ModuloVentasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RegistrarClienteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ConsultarClienteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RegistrarClienteToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.RentabilidadToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PresupuestosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CrearPresupuestoToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -61,7 +63,7 @@ Partial Class Form1
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ModuloVentasToolStripMenuItem, Me.ModuloDeComprasToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(800, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1282, 28)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -74,21 +76,34 @@ Partial Class Form1
         '
         'RegistrarClienteToolStripMenuItem
         '
+        Me.RegistrarClienteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarClienteToolStripMenuItem, Me.RegistrarClienteToolStripMenuItem1})
         Me.RegistrarClienteToolStripMenuItem.Name = "RegistrarClienteToolStripMenuItem"
-        Me.RegistrarClienteToolStripMenuItem.Size = New System.Drawing.Size(199, 26)
-        Me.RegistrarClienteToolStripMenuItem.Text = "Registrar cliente"
+        Me.RegistrarClienteToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.RegistrarClienteToolStripMenuItem.Text = "Clientes"
+        '
+        'ConsultarClienteToolStripMenuItem
+        '
+        Me.ConsultarClienteToolStripMenuItem.Name = "ConsultarClienteToolStripMenuItem"
+        Me.ConsultarClienteToolStripMenuItem.Size = New System.Drawing.Size(202, 26)
+        Me.ConsultarClienteToolStripMenuItem.Text = "Consultar cliente"
+        '
+        'RegistrarClienteToolStripMenuItem1
+        '
+        Me.RegistrarClienteToolStripMenuItem1.Name = "RegistrarClienteToolStripMenuItem1"
+        Me.RegistrarClienteToolStripMenuItem1.Size = New System.Drawing.Size(202, 26)
+        Me.RegistrarClienteToolStripMenuItem1.Text = "Registrar cliente"
         '
         'RentabilidadToolStripMenuItem
         '
         Me.RentabilidadToolStripMenuItem.Name = "RentabilidadToolStripMenuItem"
-        Me.RentabilidadToolStripMenuItem.Size = New System.Drawing.Size(199, 26)
+        Me.RentabilidadToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.RentabilidadToolStripMenuItem.Text = "Rentabilidad"
         '
         'PresupuestosToolStripMenuItem
         '
         Me.PresupuestosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CrearPresupuestoToolStripMenuItem1, Me.ConsuToolStripMenuItem})
         Me.PresupuestosToolStripMenuItem.Name = "PresupuestosToolStripMenuItem"
-        Me.PresupuestosToolStripMenuItem.Size = New System.Drawing.Size(199, 26)
+        Me.PresupuestosToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.PresupuestosToolStripMenuItem.Text = "Presupuestos"
         '
         'CrearPresupuestoToolStripMenuItem1
@@ -107,7 +122,7 @@ Partial Class Form1
         '
         Me.FacturasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarFacturasToolStripMenuItem1, Me.CrearFacturaToolStripMenuItem1})
         Me.FacturasToolStripMenuItem.Name = "FacturasToolStripMenuItem"
-        Me.FacturasToolStripMenuItem.Size = New System.Drawing.Size(199, 26)
+        Me.FacturasToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.FacturasToolStripMenuItem.Text = "Facturas"
         '
         'ConsultarFacturasToolStripMenuItem1
@@ -210,14 +225,14 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Location = New System.Drawing.Point(10, 27)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(778, 420)
+        Me.Panel1.Size = New System.Drawing.Size(1300, 700)
         Me.Panel1.TabIndex = 1
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(265, 114)
+        Me.PictureBox1.Location = New System.Drawing.Point(458, 137)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(292, 188)
+        Me.PictureBox1.Size = New System.Drawing.Size(407, 287)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -226,7 +241,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1282, 653)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
@@ -264,6 +279,8 @@ Partial Class Form1
     Friend WithEvents CrearFacturaToolStripMenuItem As ToolStripMenuItem
 
     Private Sub CrearPresupuestoToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles CrearPresupuestoToolStripMenuItem1.Click
+        'Limpia el panel antes de dibujar el nuevo formulario
+        Panel1.Controls.Clear()
         Dim formularioPresupuesto As New FormConsultaPresupuesto()
 
         'Oculta la imagen
@@ -285,6 +302,27 @@ Partial Class Form1
     Friend WithEvents CrearFacturaToolStripMenuItem1 As ToolStripMenuItem
 
     Private Sub RegistrarClienteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RegistrarClienteToolStripMenuItem.Click
+
+
+
+    End Sub
+
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents PictureBox1 As PictureBox
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        PictureBox1.Image = Image.FromFile(Application.StartupPath & "\IconoEryval.png")
+    End Sub
+
+    Friend WithEvents ConsultarClienteToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents RegistrarClienteToolStripMenuItem1 As ToolStripMenuItem
+
+    Private Sub RegistrarClienteToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles RegistrarClienteToolStripMenuItem1.Click
+
+        'Limpia el panel antes de dibujar el nuevo formulario
+        Panel1.Controls.Clear()
+
+
         Dim formularioRegitro As New FormRegistro()
         'Oculta la imagen
         PictureBox1.Visible = False
@@ -298,14 +336,46 @@ Partial Class Form1
         Panel1.Controls.Add(formularioRegitro)
         'Muestra el formulario
         formularioRegitro.Show()
-
-
     End Sub
 
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents PictureBox1 As PictureBox
+    Private Sub ConsultarClienteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultarClienteToolStripMenuItem.Click
 
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        PictureBox1.Image = Image.FromFile(Application.StartupPath & "\IconoEryval.png")
+        'Limpia el panel antes de dibujar el nuevo formulario
+        Panel1.Controls.Clear()
+
+        Dim formularioConsultaCLiente As New FormConsultaCliente()
+
+        'Oculta la imagen
+        PictureBox1.Visible = False
+
+        ' Carga del formulario nuevo dentro del formulario principal
+        formularioConsultaCLiente.TopLevel = False
+        formularioConsultaCLiente.Dock = DockStyle.Fill
+        formularioConsultaCLiente.FormBorderStyle = FormBorderStyle.None
+
+        'Carga del formulario en el panel
+        Panel1.Controls.Add(formularioConsultaCLiente)
+        'Muestra el formulario
+        formularioConsultaCLiente.Show()
+    End Sub
+
+    Private Sub RentabilidadToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RentabilidadToolStripMenuItem.Click
+        'Limpia el panel antes de dibujar el nuevo formulario
+        Panel1.Controls.Clear()
+
+        Dim formularioRentabilidad As New FormRentabilidad()
+
+        'Oculta la imagen
+        PictureBox1.Visible = False
+
+        ' Carga del formulario nuevo dentro del formulario principal
+        formularioRentabilidad.TopLevel = False
+        formularioRentabilidad.Dock = DockStyle.Fill
+        formularioRentabilidad.FormBorderStyle = FormBorderStyle.None
+
+        'Carga del formulario en el panel
+        Panel1.Controls.Add(formularioRentabilidad)
+        'Muestra el formulario
+        formularioRentabilidad.Show()
     End Sub
 End Class

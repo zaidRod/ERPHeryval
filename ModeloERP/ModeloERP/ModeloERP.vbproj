@@ -78,6 +78,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormConsultaCliente.Designer.vb">
+      <DependentUpon>FormConsultaCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormConsultaCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormConsultaPresupuesto.Designer.vb">
       <DependentUpon>FormConsultaPresupuesto.vb</DependentUpon>
     </Compile>
@@ -88,6 +94,12 @@
       <DependentUpon>FormRegistro.vb</DependentUpon>
     </Compile>
     <Compile Include="FormRegistro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRentabilidad.Designer.vb">
+      <DependentUpon>FormRentabilidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormRentabilidad.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -116,11 +128,17 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormConsultaCliente.resx">
+      <DependentUpon>FormConsultaCliente.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormConsultaPresupuesto.resx">
       <DependentUpon>FormConsultaPresupuesto.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRegistro.resx">
       <DependentUpon>FormRegistro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRentabilidad.resx">
+      <DependentUpon>FormRentabilidad.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\ConsultaPresupuesto.resx">
       <DependentUpon>ConsultaPresupuesto.vb</DependentUpon>

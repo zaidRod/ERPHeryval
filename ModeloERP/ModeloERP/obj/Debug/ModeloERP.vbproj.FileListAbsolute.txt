@@ -13,3 +13,5 @@ D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.
 D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.FormRegistro.resources
 D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.ConsultaPresupuesto.resources
 D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.FormConsultaPresupuesto.resources
+D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.FormConsultaCliente.resources
+D:\Datos Zaid\Documentos\Estudios\Abaco\ModeloERP\ModeloERP\obj\Debug\ModeloERP.FormRentabilidad.resources
