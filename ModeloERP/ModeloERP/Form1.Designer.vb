@@ -63,7 +63,8 @@ Partial Class Form1
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ModuloVentasToolStripMenuItem, Me.ModuloDeComprasToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1282, 28)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(4, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(962, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -71,180 +72,183 @@ Partial Class Form1
         '
         Me.ModuloVentasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RegistrarClienteToolStripMenuItem, Me.RentabilidadToolStripMenuItem, Me.PresupuestosToolStripMenuItem, Me.FacturasToolStripMenuItem})
         Me.ModuloVentasToolStripMenuItem.Name = "ModuloVentasToolStripMenuItem"
-        Me.ModuloVentasToolStripMenuItem.Size = New System.Drawing.Size(122, 24)
+        Me.ModuloVentasToolStripMenuItem.Size = New System.Drawing.Size(98, 20)
         Me.ModuloVentasToolStripMenuItem.Text = "Modulo Ventas"
         '
         'RegistrarClienteToolStripMenuItem
         '
         Me.RegistrarClienteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarClienteToolStripMenuItem, Me.RegistrarClienteToolStripMenuItem1})
         Me.RegistrarClienteToolStripMenuItem.Name = "RegistrarClienteToolStripMenuItem"
-        Me.RegistrarClienteToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.RegistrarClienteToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
         Me.RegistrarClienteToolStripMenuItem.Text = "Clientes"
         '
         'ConsultarClienteToolStripMenuItem
         '
         Me.ConsultarClienteToolStripMenuItem.Name = "ConsultarClienteToolStripMenuItem"
-        Me.ConsultarClienteToolStripMenuItem.Size = New System.Drawing.Size(202, 26)
+        Me.ConsultarClienteToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
         Me.ConsultarClienteToolStripMenuItem.Text = "Consultar cliente"
         '
         'RegistrarClienteToolStripMenuItem1
         '
         Me.RegistrarClienteToolStripMenuItem1.Name = "RegistrarClienteToolStripMenuItem1"
-        Me.RegistrarClienteToolStripMenuItem1.Size = New System.Drawing.Size(202, 26)
+        Me.RegistrarClienteToolStripMenuItem1.Size = New System.Drawing.Size(163, 22)
         Me.RegistrarClienteToolStripMenuItem1.Text = "Registrar cliente"
         '
         'RentabilidadToolStripMenuItem
         '
         Me.RentabilidadToolStripMenuItem.Name = "RentabilidadToolStripMenuItem"
-        Me.RentabilidadToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.RentabilidadToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
         Me.RentabilidadToolStripMenuItem.Text = "Rentabilidad"
         '
         'PresupuestosToolStripMenuItem
         '
         Me.PresupuestosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CrearPresupuestoToolStripMenuItem1, Me.ConsuToolStripMenuItem})
         Me.PresupuestosToolStripMenuItem.Name = "PresupuestosToolStripMenuItem"
-        Me.PresupuestosToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.PresupuestosToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
         Me.PresupuestosToolStripMenuItem.Text = "Presupuestos"
         '
         'CrearPresupuestoToolStripMenuItem1
         '
         Me.CrearPresupuestoToolStripMenuItem1.Name = "CrearPresupuestoToolStripMenuItem1"
-        Me.CrearPresupuestoToolStripMenuItem1.Size = New System.Drawing.Size(239, 26)
+        Me.CrearPresupuestoToolStripMenuItem1.Size = New System.Drawing.Size(193, 22)
         Me.CrearPresupuestoToolStripMenuItem1.Text = "Consultar presupuesto"
         '
         'ConsuToolStripMenuItem
         '
         Me.ConsuToolStripMenuItem.Name = "ConsuToolStripMenuItem"
-        Me.ConsuToolStripMenuItem.Size = New System.Drawing.Size(239, 26)
+        Me.ConsuToolStripMenuItem.Size = New System.Drawing.Size(193, 22)
         Me.ConsuToolStripMenuItem.Text = "Crear presupuesto"
         '
         'FacturasToolStripMenuItem
         '
         Me.FacturasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarFacturasToolStripMenuItem1, Me.CrearFacturaToolStripMenuItem1})
         Me.FacturasToolStripMenuItem.Name = "FacturasToolStripMenuItem"
-        Me.FacturasToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.FacturasToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
         Me.FacturasToolStripMenuItem.Text = "Facturas"
         '
         'ConsultarFacturasToolStripMenuItem1
         '
         Me.ConsultarFacturasToolStripMenuItem1.Name = "ConsultarFacturasToolStripMenuItem1"
-        Me.ConsultarFacturasToolStripMenuItem1.Size = New System.Drawing.Size(210, 26)
+        Me.ConsultarFacturasToolStripMenuItem1.Size = New System.Drawing.Size(170, 22)
         Me.ConsultarFacturasToolStripMenuItem1.Text = "Consultar facturas"
         '
         'CrearFacturaToolStripMenuItem1
         '
         Me.CrearFacturaToolStripMenuItem1.Name = "CrearFacturaToolStripMenuItem1"
-        Me.CrearFacturaToolStripMenuItem1.Size = New System.Drawing.Size(210, 26)
+        Me.CrearFacturaToolStripMenuItem1.Size = New System.Drawing.Size(170, 22)
         Me.CrearFacturaToolStripMenuItem1.Text = "Crear factura"
         '
         'ModuloDeComprasToolStripMenuItem
         '
         Me.ModuloDeComprasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProveedoresToolStripMenuItem, Me.PresupuestosToolStripMenuItem1, Me.PedidosToolStripMenuItem, Me.FacturasToolStripMenuItem1})
         Me.ModuloDeComprasToolStripMenuItem.Name = "ModuloDeComprasToolStripMenuItem"
-        Me.ModuloDeComprasToolStripMenuItem.Size = New System.Drawing.Size(159, 24)
+        Me.ModuloDeComprasToolStripMenuItem.Size = New System.Drawing.Size(128, 20)
         Me.ModuloDeComprasToolStripMenuItem.Text = "Modulo de Compras"
         '
         'ProveedoresToolStripMenuItem
         '
         Me.ProveedoresToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AgregarProveedorToolStripMenuItem, Me.ListadoDeProveedoresToolStripMenuItem})
         Me.ProveedoresToolStripMenuItem.Name = "ProveedoresToolStripMenuItem"
-        Me.ProveedoresToolStripMenuItem.Size = New System.Drawing.Size(178, 26)
+        Me.ProveedoresToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ProveedoresToolStripMenuItem.Text = "Proveedores"
         '
         'AgregarProveedorToolStripMenuItem
         '
         Me.AgregarProveedorToolStripMenuItem.Name = "AgregarProveedorToolStripMenuItem"
-        Me.AgregarProveedorToolStripMenuItem.Size = New System.Drawing.Size(248, 26)
+        Me.AgregarProveedorToolStripMenuItem.Size = New System.Drawing.Size(196, 22)
         Me.AgregarProveedorToolStripMenuItem.Text = "Agregar proveedor"
         '
         'ListadoDeProveedoresToolStripMenuItem
         '
         Me.ListadoDeProveedoresToolStripMenuItem.Name = "ListadoDeProveedoresToolStripMenuItem"
-        Me.ListadoDeProveedoresToolStripMenuItem.Size = New System.Drawing.Size(248, 26)
+        Me.ListadoDeProveedoresToolStripMenuItem.Size = New System.Drawing.Size(196, 22)
         Me.ListadoDeProveedoresToolStripMenuItem.Text = "Listado de proveedores"
         '
         'PresupuestosToolStripMenuItem1
         '
         Me.PresupuestosToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarPresupuestosToolStripMenuItem, Me.CrearPresupuestoToolStripMenuItem})
         Me.PresupuestosToolStripMenuItem1.Name = "PresupuestosToolStripMenuItem1"
-        Me.PresupuestosToolStripMenuItem1.Size = New System.Drawing.Size(178, 26)
+        Me.PresupuestosToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
         Me.PresupuestosToolStripMenuItem1.Text = "Presupuestos"
         '
         'ConsultarPresupuestosToolStripMenuItem
         '
         Me.ConsultarPresupuestosToolStripMenuItem.Name = "ConsultarPresupuestosToolStripMenuItem"
-        Me.ConsultarPresupuestosToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
+        Me.ConsultarPresupuestosToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
         Me.ConsultarPresupuestosToolStripMenuItem.Text = "Consultar presupuestos"
         '
         'CrearPresupuestoToolStripMenuItem
         '
         Me.CrearPresupuestoToolStripMenuItem.Name = "CrearPresupuestoToolStripMenuItem"
-        Me.CrearPresupuestoToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
+        Me.CrearPresupuestoToolStripMenuItem.Size = New System.Drawing.Size(198, 22)
         Me.CrearPresupuestoToolStripMenuItem.Text = "Crear presupuesto"
         '
         'PedidosToolStripMenuItem
         '
         Me.PedidosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarPedidosToolStripMenuItem, Me.CrearPedidoToolStripMenuItem})
         Me.PedidosToolStripMenuItem.Name = "PedidosToolStripMenuItem"
-        Me.PedidosToolStripMenuItem.Size = New System.Drawing.Size(178, 26)
+        Me.PedidosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PedidosToolStripMenuItem.Text = "Pedidos"
         '
         'ConsultarPedidosToolStripMenuItem
         '
         Me.ConsultarPedidosToolStripMenuItem.Name = "ConsultarPedidosToolStripMenuItem"
-        Me.ConsultarPedidosToolStripMenuItem.Size = New System.Drawing.Size(212, 26)
+        Me.ConsultarPedidosToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
         Me.ConsultarPedidosToolStripMenuItem.Text = "Consultar pedidos"
         '
         'CrearPedidoToolStripMenuItem
         '
         Me.CrearPedidoToolStripMenuItem.Name = "CrearPedidoToolStripMenuItem"
-        Me.CrearPedidoToolStripMenuItem.Size = New System.Drawing.Size(212, 26)
+        Me.CrearPedidoToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
         Me.CrearPedidoToolStripMenuItem.Text = "Crear pedido"
         '
         'FacturasToolStripMenuItem1
         '
         Me.FacturasToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarFacturasToolStripMenuItem, Me.CrearFacturaToolStripMenuItem})
         Me.FacturasToolStripMenuItem1.Name = "FacturasToolStripMenuItem1"
-        Me.FacturasToolStripMenuItem1.Size = New System.Drawing.Size(178, 26)
+        Me.FacturasToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
         Me.FacturasToolStripMenuItem1.Text = "Facturas"
         '
         'ConsultarFacturasToolStripMenuItem
         '
         Me.ConsultarFacturasToolStripMenuItem.Name = "ConsultarFacturasToolStripMenuItem"
-        Me.ConsultarFacturasToolStripMenuItem.Size = New System.Drawing.Size(210, 26)
+        Me.ConsultarFacturasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ConsultarFacturasToolStripMenuItem.Text = "Consultar facturas"
         '
         'CrearFacturaToolStripMenuItem
         '
         Me.CrearFacturaToolStripMenuItem.Name = "CrearFacturaToolStripMenuItem"
-        Me.CrearFacturaToolStripMenuItem.Size = New System.Drawing.Size(210, 26)
+        Me.CrearFacturaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CrearFacturaToolStripMenuItem.Text = "Crear factura"
         '
         'Panel1
         '
         Me.Panel1.Controls.Add(Me.PictureBox1)
-        Me.Panel1.Location = New System.Drawing.Point(10, 27)
+        Me.Panel1.Location = New System.Drawing.Point(8, 22)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1300, 700)
+        Me.Panel1.Size = New System.Drawing.Size(975, 569)
         Me.Panel1.TabIndex = 1
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(458, 137)
+        Me.PictureBox1.Location = New System.Drawing.Point(344, 111)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(407, 287)
+        Me.PictureBox1.Size = New System.Drawing.Size(305, 233)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1282, 653)
+        Me.ClientSize = New System.Drawing.Size(962, 531)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form1"
         Me.Text = " "
         Me.MenuStrip1.ResumeLayout(False)
@@ -377,5 +381,90 @@ Partial Class Form1
         Panel1.Controls.Add(formularioRentabilidad)
         'Muestra el formulario
         formularioRentabilidad.Show()
+    End Sub
+
+    Private Sub ConsultarPedidosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultarPedidosToolStripMenuItem.Click
+
+        'Limpia el panel antes de dibujar el nuevo formulario
+        Panel1.Controls.Clear()
+        Dim FormConsultarPedido As New FormConsultarPedido()
+
+        'Oculta la imagen
+        PictureBox1.Visible = False
+
+        ' Carga del formulario nuevo dentro del formulario principal
+        FormConsultarPedido.TopLevel = False
+        FormConsultarPedido.Dock = DockStyle.Fill
+        FormConsultarPedido.FormBorderStyle = FormBorderStyle.None
+
+        'Carga del formulario en el panel
+        Panel1.Controls.Add(FormConsultarPedido)
+        'Muestra el formulario
+        FormConsultarPedido.Show()
+
+    End Sub
+
+    Private Sub CrearPedidoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CrearPedidoToolStripMenuItem.Click
+
+        'Limpia el panel antes de dibujar el nuevo formulario
+        Panel1.Controls.Clear()
+        Dim FormCrearPedido As New FormCrearPedido()
+
+        'Oculta la imagen
+        PictureBox1.Visible = False
+
+        ' Carga del formulario nuevo dentro del formulario principal
+        FormCrearPedido.TopLevel = False
+        FormCrearPedido.Dock = DockStyle.Fill
+        FormCrearPedido.FormBorderStyle = FormBorderStyle.None
+
+        'Carga del formulario en el panel
+        Panel1.Controls.Add(FormCrearPedido)
+        'Muestra el formulario
+        FormCrearPedido.Show()
+
+    End Sub
+
+    Private Sub ConsultarFacturasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultarFacturasToolStripMenuItem.Click
+
+        'Limpia el panel antes de dibujar el nuevo formulario
+        Panel1.Controls.Clear()
+        Dim FormConsultarFacturas As New FormConsultarFacturas()
+
+        'Oculta la imagen
+        PictureBox1.Visible = False
+
+        ' Carga del formulario nuevo dentro del formulario principal
+        FormConsultarFacturas.TopLevel = False
+        FormConsultarFacturas.Dock = DockStyle.Fill
+        FormConsultarFacturas.FormBorderStyle = FormBorderStyle.None
+
+        'Carga del formulario en el panel
+        Panel1.Controls.Add(FormConsultarFacturas)
+        'Muestra el formulario
+        FormConsultarFacturas.Show()
+
+
+    End Sub
+
+    Private Sub CrearFacturaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CrearFacturaToolStripMenuItem.Click
+
+        'Limpia el panel antes de dibujar el nuevo formulario
+        Panel1.Controls.Clear()
+        Dim FormCrearFactura As New FormCrearFactura()
+
+        'Oculta la imagen
+        PictureBox1.Visible = False
+
+        ' Carga del formulario nuevo dentro del formulario principal
+        FormCrearFactura.TopLevel = False
+        FormCrearFactura.Dock = DockStyle.Fill
+        FormCrearFactura.FormBorderStyle = FormBorderStyle.None
+
+        'Carga del formulario en el panel
+        Panel1.Controls.Add(FormCrearFactura)
+        'Muestra el formulario
+        FormCrearFactura.Show()
+
     End Sub
 End Class
