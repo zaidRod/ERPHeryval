@@ -90,6 +90,30 @@
     <Compile Include="FormConsultaPresupuesto.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormConsultarFacturas.designer.vb">
+      <DependentUpon>FormConsultarFacturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormConsultarFacturas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConsultarPedido.designer.vb">
+      <DependentUpon>FormConsultarPedido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormConsultarPedido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCrearFactura.designer.vb">
+      <DependentUpon>FormCrearFactura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCrearFactura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCrearPedido.designer.vb">
+      <DependentUpon>FormCrearPedido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCrearPedido.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormRegistro.Designer.vb">
       <DependentUpon>FormRegistro.vb</DependentUpon>
     </Compile>
@@ -133,6 +157,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormConsultaPresupuesto.resx">
       <DependentUpon>FormConsultaPresupuesto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConsultarFacturas.resx">
+      <DependentUpon>FormConsultarFacturas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConsultarPedido.resx">
+      <DependentUpon>FormConsultarPedido.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCrearFactura.resx">
+      <DependentUpon>FormCrearFactura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCrearPedido.resx">
+      <DependentUpon>FormCrearPedido.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRegistro.resx">
       <DependentUpon>FormRegistro.vb</DependentUpon>
